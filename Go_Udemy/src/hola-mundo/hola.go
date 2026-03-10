@@ -25,10 +25,18 @@ const (
 	Sabado
 )
 
+func papu() {
+
+	fmt.Println()
+	fullname := "Jorge Mota \t(alias \"Jorge\")\n"
+	fmt.Println(fullname)
+}
 func main() {
-	//Imprimir en consola
+	//Imprimir en c
+	// onsola
 	fmt.Println("Hola Mundo")
 	fmt.Println(quote.Go())
+	papu()
 
 	//Declaracion efectaiva de variables y al final el tipo de dato
 
@@ -45,4 +53,8 @@ func main() {
 	fmt.Println(pi, x, y, z, w)
 	fmt.Println("Día de la semana:", Domingo, Lunes, Martes, Miercoles, Jueves, Viernes, Sabado)
 
+}
+
+func init() {
+	panic("unimplemented")
 }
